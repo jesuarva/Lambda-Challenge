@@ -3,7 +3,7 @@ const {
   lambdaSchool,
   longestString,
   computeUserAverageAge,
-} = require('./assessment'); 
+} = require('./assessment');
 
 describe('Lambda School Precourse Assessment', () => {
   describe('helloWorld', () => {
@@ -13,7 +13,7 @@ describe('Lambda School Precourse Assessment', () => {
     it('should return the string \'Hello World!\'', () => {
       expect(helloWorld()).toBe('Hello World!');
     });
-  }); 
+  });
 
   describe('lambdaSchool', () => {
     it('should return \'Lambda\' for a number divisible by 3', () => {
@@ -31,7 +31,7 @@ describe('Lambda School Precourse Assessment', () => {
       expect(lambdaSchool(30)).toBe('Lambda School');
       expect(lambdaSchool(180)).toBe('Lambda School');
     });
-  }); 
+  });
 
   describe('longestString', () => {
     it('should return the longest string in the array', () => {
@@ -41,7 +41,7 @@ describe('Lambda School Precourse Assessment', () => {
     it('should return the first longest string if there is a tie', () => {
       expect(longestString(['C++', 'CSS', 'JWT'])).toBe('C++');
     });
-  }); 
+  });
 
   describe('computeUserAverageAge', () => {
     const authors = [{
@@ -72,4 +72,3 @@ describe('Lambda School Precourse Assessment', () => {
     });
   });
 });
-
